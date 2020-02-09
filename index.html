@@ -18,6 +18,7 @@
     <meta name="description" content="Compete with anybody in any activity you like, it will help you to get to the next level or just your fun;)">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js" integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P" crossorigin="anonymous"></script>
@@ -28,8 +29,8 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-12">
-                <img src="logo.png" class="img-fluid" alt="Logo"/>
+            <div class="col-12 col-lg-6 offset-lg-3 col-md-9 offset-md-3">
+                <img src="logo.svg" class="img-fluid" alt="Logo"/>
             </div>
         </div>
         <div class="row">
@@ -37,6 +38,33 @@
                 <h1>
                     Do you think you can do something cool? Challenge anyone and prove it!
                 </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-8">
+                <form id="accessForm">
+                    <div class="form-row">
+                        <div class="form-group col-6">
+                            <label for="emailInput" class="sr-only">Email address</label>
+                            <input type="email" required class="form-control" id="emailInput" placeholder="Enter email">
+                        </div>
+                        <div class="form-group col-6">
+                            <button type="submit" class="btn btn-primary">Request access</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="d-flex flex-column align-items-center">
+                    <img class="challenge_video" src="https://media.giphy.com/media/elh0NkamBdenlnc35B/giphy.gif"/>
+                    <img class="phone" src="phone.svg"/>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-6">
                 <p>How can you do it?</p>
                 <ol>
                     <li>
@@ -57,21 +85,6 @@
                         Here you can compete with anybody in any activity you like, it will help you to get to the next level or just your fun;)
                     </dd>
                 </dl>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-lg-8">
-                <form id="accessForm">
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <label for="emailInput" class="sr-only">Email address</label>
-                            <input type="email" required class="form-control" id="emailInput" placeholder="Enter email">
-                        </div>
-                        <div class="form-group col-md-6">
-                            <button type="submit" class="btn btn-primary">Request access</button>
-                        </div>
-                    </div>
-                </form>
             </div>
         </div>
     </div>

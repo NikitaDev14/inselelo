@@ -1,0 +1,24 @@
+body {
+    background: url('background.png') no-repeat fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    background-position-y: -90px;
+    background-color: black;
+}
+
+.container {
+    padding-top: 20px;
+}
+
+.challenge_video {
+    width: 200px;
+    position: absolute;
+    top: 92px;
+}
+
+.phone {
+    width: 234px;
+}
