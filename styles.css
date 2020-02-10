@@ -9,10 +9,6 @@ body {
     background-color: black;
 }
 
-.container {
-    padding-top: 20px;
-}
-
 .challenge_video {
     width: 200px;
     position: absolute;
